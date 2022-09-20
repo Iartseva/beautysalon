@@ -1,0 +1,11 @@
+.intro__menu-bottom {
+  width: 1296px;
+  min-height: 80px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  left: 312px;
+
+  background-color: #00868A;
+}

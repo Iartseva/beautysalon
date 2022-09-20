@@ -1,0 +1,16 @@
+.intro__menu-bottom-button {
+  background: #00868A;
+  border: 0;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  color: white;
+}
+
+.intro__menu-bottom-button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+

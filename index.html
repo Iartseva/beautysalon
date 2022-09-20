@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Салон красоты</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="description" content="Проект Ольги Ярцевой_Салон красоты">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Ярцева Ольга">
+</head>
+
+<body class="page">
+
+    <main class="content">
+
+      <section class="intro">
+        <nav class="intro__menu">
+          <a class="intro__link" href="#">Косметология</a>
+          <a class="intro__link" href="#">Пластическая хирургия</a>
+          <a class="intro__link" href="#">Стоматология</a>
+          <a class="intro__link" href="#">Лазерная медицина</a>
+          <a class="intro__link" href="#">Контакты</a>
+        </nav>
+        <button class="intro__button">Запись на прием</button>
+        <h1 class="intro__title">Косметология</h1>
+        <p class="intro__text"> Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека благополучного и успешного.</p>
+        <img class="intro__foto" src="/images/foto_header.jpg" alt="женщина с косметической маской">
+        <button class="intro__more-button" type="button">ПОДРОБНЕЕ</button>
+        <nav class="intro__menu-bottom">
+          <button class="intro__menu-bottom-button" id="complex" href="#">Комплексные процедуры</button>
+          <button class="intro__menu-bottom-button intro__menu-bottom-button_type_color" id="education" href="#">Центр обучения</button>
+          <button class="intro__menu-bottom-button" id="vip" href="#">VIP клиентам</button>
+        </nav>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <div class="popup popup_type_image" >
+      <figure class="popup__figure">
+        <button class="popup__button-close" type="button"></button>
+        <img class="popup__image" src="#" alt="#">
+        <figcaption class="popup__caption">Маска для лица</figcaption>
+      </figure>
+    </div>
+
+    <div class="popup popup_type_request">
+      <div class="popup__container">
+        <form class="popup__form popup__form_type_request" name="popup__form_type_request" novalidate>
+          <h2 class="popup__title">Запись к специалисту</h2>
+          <label class="popup__label">
+            <input class="popup__input popup__input_type_name" id="name" type="text" name="name" required minlength="2" maxlength="40" placeholder="Ваше имя">
+            <span class="popup__form-error name-error"></span>
+          </label>
+          <label class="popup__label">
+            <input class="popup__input popup__input_type_phone" id="phone" type="tel" name="phone" required placeholder="Телефон">
+            <span class="popup__form-error phone-error"></span>
+          </label>
+          <label class="popup__label">
+            <select name="select" class="popup__input popup__input_type_select">
+              <option selected value="s1">Маникюр</option>
+              <option value="s2">Педикюр</option>
+              <option value="s3">Уход за телом</option>
+              <option value="s4">Массаж и SPA</option>
+            </select>
+          </label>
+          <button class="popup__button-submit" type="submit">Перезвоните мне</button>
+        </form>
+        <button class="popup__button-close" type="button"></button>
+      </div>
+    </div>
+
+<script src="/pages/index.js" type="module"></script>
+</body>
+</html>

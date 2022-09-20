@@ -1,0 +1,14 @@
+.intro__text {
+  margin: 0;
+  width: 416px;
+  height: 84px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  position: absolute;
+  top: 312px;
+  left: 312px;
+}

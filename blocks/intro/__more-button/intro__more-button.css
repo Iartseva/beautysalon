@@ -1,0 +1,22 @@
+.intro__more-button {
+  width: 163px;
+  height: 50px;
+  position: absolute;
+  left: 312px;
+  top: 436px;
+  background: #00868A;
+  border: 0;
+
+  color: #FFFFFF;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.intro__more-button:hover {
+  opacity: .8;
+  cursor: pointer;
+}

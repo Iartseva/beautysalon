@@ -1,0 +1,21 @@
+.intro__button {
+  position: absolute;
+  width: 175px;
+  height: 40px;
+  left: 1423px;
+  top: 24px;
+  background: #FFFFFF;
+  border: 0;
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.intro__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
